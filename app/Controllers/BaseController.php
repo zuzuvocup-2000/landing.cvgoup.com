@@ -9,6 +9,7 @@ use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
 use eftec\bladeone\BladeOne;
+use App\Models\AutoloadModel;
 /**
  * Class BaseController
  *
@@ -27,6 +28,8 @@ abstract class BaseController extends Controller
      * @var CLIRequest|IncomingRequest
      */
     protected $request;
+    protected $session;
+    protected $AutoloadModel;
 
     /**
      * An array of helpers to be loaded automatically upon
@@ -51,8 +54,10 @@ abstract class BaseController extends Controller
         parent::initController($request, $response, $logger);
         $this->request = \Config\Services::request();
         helper($this->helpers);
-        
 
+        $this->AutoloadModel = new AutoloadModel();
+        $this->currentTime =  gmdate('Y-m-d H:i:s', time() + 7*3600);
+        $this->session =  session();
         // Preload any models, libraries, etc, here.
 
         // E.g.: $this->session = \Config\Services::session();

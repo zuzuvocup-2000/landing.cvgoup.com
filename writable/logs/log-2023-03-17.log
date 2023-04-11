@@ -1,0 +1,277 @@
+CRITICAL - 2023-03-17 15:35:50 --> Invalid file: "welcome_message.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Home.php(11): view()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-17 16:40:02 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Views\backend\user\user\store.php on line 126.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/user/user/store', [], true)
+ 4 APPPATH\Views\backend\dashboard\layout\home.php(46): view('backend/user/user/store')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\dashboard\\layout\\home.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/dashboard/layout/home', [], true)
+ 8 APPPATH\Controllers\Backend\User\User.php(22): view('backend/dashboard/layout/home', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 16:40:02 --> Undefined variable: user
+in APPPATH\Views\backend\user\user\store.php on line 126.
+ 1 APPPATH\Views\backend\user\user\store.php(126): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\user\\user\\store.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\backend\dashboard\layout\home.php(46): view()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\dashboard\\layout\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\Backend\User\User.php(22): view()
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 16:40:11 --> syntax error, unexpected ','
+in APPPATH\Views\backend\user\user\store.php on line 126.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH\Views\backend\dashboard\layout\home.php(46): view()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\dashboard\\layout\\home.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\Backend\User\User.php(22): view()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 16:40:12 --> syntax error, unexpected ','
+in APPPATH\Views\backend\user\user\store.php on line 126.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH\Views\backend\dashboard\layout\home.php(46): view()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\dashboard\\layout\\home.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\Backend\User\User.php(22): view()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 16:40:24 --> Undefined variable: user
+in APPPATH\Views\backend\user\user\store.php on line 126.
+ 1 APPPATH\Views\backend\user\user\store.php(126): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\user\\user\\store.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\backend\dashboard\layout\home.php(46): view()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\dashboard\\layout\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\Backend\User\User.php(22): view()
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 16:40:25 --> Undefined variable: user
+in APPPATH\Views\backend\user\user\store.php on line 126.
+ 1 APPPATH\Views\backend\user\user\store.php(126): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\user\\user\\store.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\backend\dashboard\layout\home.php(46): view()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\dashboard\\layout\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\Backend\User\User.php(22): view()
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:20:36 --> Invalid file: "welcome_message.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Home.php(11): view()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:34:39 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(20): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:34:40 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(20): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:35:56 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(20): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:35:57 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(20): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:35:57 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(20): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:35:58 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(20): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:35:58 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(20): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:35:59 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(20): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:36:20 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(21): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:37:13 --> Undefined variable: validationMessages
+in APPPATH\Validation\UserCreateValidation.php on line 29.
+ 1 APPPATH\Validation\UserCreateValidation.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Backend\User\User.php(20): App\Validation\UserCreateValidation->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:37:42 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(21): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:38:12 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(21): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:38:14 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(21): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:38:14 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(21): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:38:20 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in W:\domains\landing.cvgoup.com\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 469.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules()
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator()
+ 3 APPPATH\Controllers\Backend\User\User.php(21): CodeIgniter\Controller->validate()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:41:16 --> Too few arguments to function CodeIgniter\Validation\Validation::__construct(), 0 passed in W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php on line 20 and exactly 2 expected
+in SYSTEMPATH\Validation\Validation.php on line 93.
+ 1 APPPATH\Controllers\Backend\User\User.php(20): CodeIgniter\Validation\Validation->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:42:34 --> Too few arguments to function CodeIgniter\Validation\Validation::__construct(), 0 passed in W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php on line 20 and exactly 2 expected
+in SYSTEMPATH\Validation\Validation.php on line 93.
+ 1 APPPATH\Controllers\Backend\User\User.php(20): CodeIgniter\Validation\Validation->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:44:38 --> Class 'App\Validation\UserCreateValidation' not found
+in APPPATH\Controllers\Backend\User\User.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:44:55 --> Too few arguments to function CodeIgniter\Validation\Validation::__construct(), 0 passed in W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php on line 20 and exactly 2 expected
+in SYSTEMPATH\Validation\Validation.php on line 93.
+ 1 APPPATH\Controllers\Backend\User\User.php(20): CodeIgniter\Validation\Validation->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:49:28 --> Too few arguments to function CodeIgniter\Validation\Validation::__construct(), 0 passed in W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php on line 20 and exactly 2 expected
+in SYSTEMPATH\Validation\Validation.php on line 93.
+ 1 APPPATH\Controllers\Backend\User\User.php(20): CodeIgniter\Validation\Validation->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 17:50:50 --> Too few arguments to function CodeIgniter\Validation\Validation::__construct(), 0 passed in W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php on line 11 and exactly 2 expected
+in SYSTEMPATH\Validation\Validation.php on line 93.
+ 1 APPPATH\Controllers\Backend\User\User.php(11): CodeIgniter\Validation\Validation->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Backend\User\User->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(66): CodeIgniter\CodeIgniter->run()

@@ -20,9 +20,15 @@ use CodeIgniter\Config\BaseService;
 class Services extends BaseService
 {
     /* ======================================== Service ===================================================*/
-    
-    public static function ProvinceService($param = [], $getShared = true)
-    {
+    public static function AuthService($param = [], $getShared = true){
+        if ($getShared){
+            return static::getSharedInstance('AuthService', $param);
+        }
+
+        return new \App\Services\AuthService($param);
+    }
+
+    public static function ProvinceService($param = [], $getShared = true){
         if ($getShared){
             return static::getSharedInstance('ProvinceService', $param);
         }
@@ -30,16 +36,31 @@ class Services extends BaseService
         return new \App\Services\ProvinceService($param);
     }
 
+    public static function UserService($param = [], $getShared = true){
+        if ($getShared){
+            return static::getSharedInstance('UserService', $param);
+        }
+
+        return new \App\Services\UserService($param);
+    }
+
 
     /* ======================================== Repository ===================================================*/
     
-    public static function ProvinceRepository($param = [], $getShared = true)
-    {
+    public static function ProvinceRepository($param = [], $getShared = true){
         if ($getShared){
             return static::getSharedInstance('ProvinceRepository', $param);
         }
 
         return new \App\Repositories\ProvinceRepository($param);
+    }
+
+    public static function UserRepository($param = [], $getShared = true){
+        if ($getShared){
+            return static::getSharedInstance('UserRepository', $param);
+        }
+
+        return new \App\Repositories\UserRepository($param);
     }
      
 }

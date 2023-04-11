@@ -94,7 +94,7 @@
                                 <a href="auth-lock-screen.htm"> <i class="feather icon-lock"></i> Lock Screen </a>
                             </li>
                             <li>
-                                <a href="auth-normal-sign-in.htm"> <i class="feather icon-log-out"></i> Logout </a>
+                                <a href="<?php echo base_url('admin/logout') ?>"> <i class="feather icon-log-out"></i> Đăng xuất </a>
                             </li>
                         </ul>
                     </div>

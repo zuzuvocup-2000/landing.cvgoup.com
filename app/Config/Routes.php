@@ -31,12 +31,18 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->match(['get','post'],'backend/dashboard/dashboard/index', 'Backend\Dashboard\Dashboard::index');
+$routes->match(['get','post'],'admin', 'Backend\Auth\Auth::login', ['filter' => 'adminIsLogin']);
+$routes->match(['get','post'],'admin/forgot-password', 'Backend\Auth\Auth::forgot');
+$routes->match(['get','post'],'admin/logout', 'Backend\Auth\Auth::logout');
+$routes->match(['get','post'],'admin/verify', 'Backend\Auth\Auth::verify');
+$routes->match(['get','post'],'backend/dashboard/dashboard/index', 'Backend\Dashboard\Dashboard::index',['filter' => 'authGuard']);
 
 $routes->group('backend/user/user', [] , function($routes){
     $routes->add('index', 'Backend\User\User::index');
+    $routes->add('index/([0-9]+)', 'Backend\User\User::index/$1');
     $routes->add('create', 'Backend\User\User::create');
     $routes->add('update', 'Backend\User\User::update');
+    $routes->add('update/([0-9]+)', 'Backend\User\User::update/$1');
     $routes->add('delete', 'Backend\User\User::delete');
 });
 

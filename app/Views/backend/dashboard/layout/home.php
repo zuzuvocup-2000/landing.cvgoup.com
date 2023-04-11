@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Danh sách tài khoản - <?php echo DASHBOARD_NAME ?></title>
+        <title><?php echo $title ?> - <?php echo DASHBOARD_NAME ?></title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="#" />
         <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app" />
         <meta name="author" content="#" />
-        <link rel="icon" href="{{ASSET_BACKEND}}/files/assets/images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="<?php echo ASSET_BACKEND ?>/img/favicon-16x16.png" type="image/x-icon" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" />
         <?php
             $css = [
                 ASSET_BACKEND.'files/bower_components/bootstrap/css/bootstrap.min.css',
                 ASSET_BACKEND.'files/assets/icon/feather/css/feather.css',
+                ASSET_BACKEND.'files/assets/icon/icofont/css/icofont.css',
                 ASSET_BACKEND.'files/assets/icon/font-awesome/css/font-awesome.min.css',
-                ASSET_BACKEND.'files/assets/css/style.css',
                 ASSET_BACKEND.'files/assets/css/jquery.mCustomScrollbar.css',
+                ASSET_BACKEND.'files/bower_components/sweetalert/css/sweetalert.css',
+                ASSET_BACKEND.'plugin/toastr/toastr.min.css',
+                ASSET_BACKEND.'files/assets/css/style.css',
             ];
 
             foreach($css as $key => $val){
@@ -42,7 +45,7 @@
                     <div class="pcoded-wrapper">
                         <?php echo view('backend/dashboard/common/sidebar') ?>
                         <?php 
-                            if($template){
+                            if(isset($template)){
                                 echo view($template);
                             }
                         ?>
@@ -67,11 +70,14 @@
                 ASSET_BACKEND.'files/assets/pages/widget/amchart/amcharts.js',
                 ASSET_BACKEND.'files/assets/pages/widget/amchart/serial.js',
                 ASSET_BACKEND.'files/assets/pages/widget/amchart/light.js',
-                // ASSET_BACKEND.'files/assets/js/jquery.mCustomScrollbar.concat.min.js',
                 ASSET_BACKEND.'files/assets/js/SmoothScroll.js',
                 ASSET_BACKEND.'files/assets/js/pcoded.min.js',
                 ASSET_BACKEND.'files/assets/js/vartical-layout.min.js',
                 ASSET_BACKEND.'files/assets/js/script.min.js',
+                ASSET_BACKEND.'files/bower_components/sweetalert/js/sweetalert.min.js',
+                ASSET_BACKEND.'plugin/ckfinder/ckfinder.js',
+                ASSET_BACKEND.'plugin/toastr/toastr.min.js',
+                ASSET_BACKEND.'ckfinder.js',
                 ASSET_BACKEND.'library.js',
             ];
             if(isset($module) && !empty($module)){
@@ -85,6 +91,6 @@
             <script src="'.$val.'"></script>
             ';
         } ?>
-        
+        <?php echo view('backend/dashboard/common/notification') ?>
     </body>
 </html>

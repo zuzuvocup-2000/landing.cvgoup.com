@@ -1165,9 +1165,7 @@
     -ms-transform: skew(-15deg);
     transform: skew(-15deg);
 }
-.btn i {
-    margin-right: 5px;
-}
+
 .btn.btn-icon {
     border-radius: 50%;
     width: 40px;
@@ -14911,7 +14909,6 @@ table.footable-paging-center > tfoot > tr.footable-paging > td {
 }
 .border-danger {
     border-color: transparent;
-    border-left: 3px solid #eb3422;
     border-radius: 0;
     -webkit-box-shadow: 0 0 1px #999;
     box-shadow: 0 0 1px #999;
@@ -14959,7 +14956,7 @@ table.footable-paging-center > tfoot > tr.footable-paging > td {
 .login-block {
     padding: 30px 0;
     margin: 0 auto;
-    background: url(../images/auth/bg.jpg) no-repeat;
+    background: url(../../../img/background.jpg) no-repeat;
     background-size: cover;
     min-height: 100vh;
     display: -webkit-box;
@@ -20942,4 +20939,78 @@ span.value {
 .done-task .captions {
     color: #919aa3;
     text-decoration: line-through;
+}
+#paginate{
+    display: flex;
+    justify-content: center;
+}
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #01a9ac;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: -1px;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  z-index: 2;
+  color: #23527c;
+  background-color: #eeeeee;
+  border-color: #ddd;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 3;
+  color: #fff;
+  background-color: #01a9ac;
+  border-color: #01a9ac;
+  cursor: default;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #777777;
+  background-color: #fff;
+  border-color: #ddd;
+  cursor: not-allowed;
+}
+
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: middle;
+    border-top: 1px solid #e9ecef;
 }

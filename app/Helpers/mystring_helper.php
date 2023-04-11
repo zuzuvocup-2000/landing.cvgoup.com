@@ -21,6 +21,33 @@ if (! function_exists('pre')){
 	}
 }
 
+// tạo thông báo
+if(!function_exists('show_flashdata')){
+	function show_flashdata($body = TRUE){;
+		$result = [];
+		$session = session();
+		$message = $session->getFlashdata('message-success');
+		$result['message'] = $message;
+		if(isset($message)){
+			$result['flag'] = 0;
+			return $result;
+		}
+		$message = $session->getFlashdata('message-danger');
+		$result['message'] = $message;
+		if(isset($message)){
+			$result['flag'] = 1;
+		}
+
+		return $result;
+	}
+}
+
+if (! function_exists('currentTime')){
+	function currentTime(){
+		return gmdate('Y-m-d H:i:s', time() + 7*3600);
+	}
+}
+
 if (! function_exists('convert_array')){
 	function convert_array($param){
 		$array[0] = 'Chọn '.$param['text'].'';

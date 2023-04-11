@@ -1,0 +1,287 @@
+INFO - 2023-03-25 02:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 02:42:18 --> Undefined property: App\Controllers\Backend\Auth\Auth::$userRepository
+in APPPATH\Controllers\Backend\Auth\Auth.php on line 41.
+ 1 APPPATH\Controllers\Backend\Auth\Auth.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->logout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 02:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 02:43:02 --> Trying to get property 'id' of non-object
+in APPPATH\Services\AuthService.php on line 48.
+ 1 APPPATH\Services\AuthService.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Backend\Auth\Auth.php(39): App\Services\AuthService->logoutUser()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->logout()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 02:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 02:53:53 --> Invalid file: "backend/auth/template/forgot.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH\Views\backend\auth\layout\layout.php(27): view()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\auth\\layout\\layout.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\Backend\Auth\Auth.php(41): view()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->forgot()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 02:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 02:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 03:03:27 --> Undefined property: App\Controllers\Backend\Auth\Auth::$fotgotRules
+in APPPATH\Controllers\Backend\Auth\Auth.php on line 44.
+ 1 APPPATH\Controllers\Backend\Auth\Auth.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->forgot()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 03:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 03:03:51 --> Undefined property: App\Controllers\Backend\Auth\Auth::$fotgotRules
+in APPPATH\Controllers\Backend\Auth\Auth.php on line 43.
+ 1 APPPATH\Controllers\Backend\Auth\Auth.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->forgot()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 03:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 03:04:13 --> Undefined property: App\Controllers\Backend\Auth\Auth::$fotgotRules
+in APPPATH\Controllers\Backend\Auth\Auth.php on line 43.
+ 1 APPPATH\Controllers\Backend\Auth\Auth.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->forgot()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 03:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 03:07:36 --> syntax error, unexpected 'prE' (T_STRING)
+in APPPATH\Services\AuthService.php on line 56.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 APPPATH\Config\Services.php(28): spl_autoload_call()
+ 5 SYSTEMPATH\Config\BaseService.php(193): Config\Services::AuthService()
+ 6 APPPATH\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH\Common.php(1016): Config\Services::AuthService()
+ 8 APPPATH\Controllers\Backend\Auth\Auth.php(13): service()
+ 9 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Backend\Auth\Auth->__construct()
+10 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 03:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 03:07:41 --> Undefined variable: email
+in APPPATH\Services\AuthService.php on line 55.
+ 1 APPPATH\Services\AuthService.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Backend\Auth\Auth.php(44): App\Services\AuthService->forgotPassword()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->forgot()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 03:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 03:14:03 --> Class 'App\Services\MailBie' not found
+in APPPATH\Services\AuthService.php on line 60.
+ 1 APPPATH\Controllers\Backend\Auth\Auth.php(44): App\Services\AuthService->forgotPassword()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->forgot()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 03:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 03:18:36 --> Use of undefined constant CMS_NAME - assumed 'CMS_NAME' (this will throw an Error in a future version of PHP)
+in APPPATH\Libraries\Mailbie.php on line 12.
+ 1 APPPATH\Libraries\Mailbie.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Services\AuthService.php(71): App\Libraries\Mailbie->send()
+ 3 APPPATH\Controllers\Backend\Auth\Auth.php(44): App\Services\AuthService->forgotPassword()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->forgot()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 03:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 03:18:58 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update()
+ 3 APPPATH\Repositories\UserRepository.php(71): CodeIgniter\Model->update()
+ 4 APPPATH\Services\AuthService.php(79): App\Repositories\UserRepository->updateUserOtp()
+ 5 APPPATH\Controllers\Backend\Auth\Auth.php(44): App\Services\AuthService->forgotPassword()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->forgot()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 03:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 03:21:10 --> Undefined variable: user
+in APPPATH\Controllers\Backend\Auth\Auth.php on line 47.
+ 1 APPPATH\Controllers\Backend\Auth\Auth.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->forgot()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 03:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 03:22:09 --> Undefined property: App\Controllers\Backend\Auth\Auth::$userRepository
+in APPPATH\Controllers\Backend\Auth\Auth.php on line 44.
+ 1 APPPATH\Controllers\Backend\Auth\Auth.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->forgot()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 03:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 03:22:32 --> Too few arguments to function App\Services\AuthService::forgotPassword(), 1 passed in W:\domains\landing.cvgoup.com\app\Controllers\Backend\Auth\Auth.php on line 46 and exactly 2 expected
+in APPPATH\Services\AuthService.php on line 56.
+ 1 APPPATH\Controllers\Backend\Auth\Auth.php(46): App\Services\AuthService->forgotPassword()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->forgot()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 03:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 03:25:30 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL/TLS already set-up for this stream in W:\domains\landing.cvgoup.com\system\Email\Email.php:1886
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 W:\domains\landing.cvgoup.com\system\Email\Email.php(1886): stream_socket_enable_crypto()
+#2 W:\domains\landing.cvgoup.com\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 W:\domains\landing.cvgoup.com\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 W:\domains\landing.cvgoup.com\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 W:\domains\landing.cvgoup.com\app\Libraries\Mailbie.php(16): CodeIgniter\Email\Email->send()
+#6 W:\domains\landing.cvgoup.com\app\Services\AuthService.php(68): App\Libraries\Mailbie->send()
+#7 W:\domains\landing.cvgoup.com\app\Controllers\Backend\Auth\Auth.php(46): App\Services\AuthService->forgotPassword()
+#8 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->forgot()
+#9 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 W:\domains\landing.cvgoup.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-25 03:25:30 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-25 03:25:30 --> 220 smtp.googlemail.com ESMTP b24-20020aa78718000000b006281505dbc7sm7582534pfo.185 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [1.54.213.169]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError b24-20020aa78718000000b006281505dbc7sm7582534pfo.185 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError b24-20020aa78718000000b006281505dbc7sm7582534pfo.185 - gsmtp
+
+INFO - 2023-03-25 03:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 03:26:23 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL/TLS already set-up for this stream in W:\domains\landing.cvgoup.com\system\Email\Email.php:1886
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 W:\domains\landing.cvgoup.com\system\Email\Email.php(1886): stream_socket_enable_crypto()
+#2 W:\domains\landing.cvgoup.com\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 W:\domains\landing.cvgoup.com\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 W:\domains\landing.cvgoup.com\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 W:\domains\landing.cvgoup.com\app\Libraries\Mailbie.php(16): CodeIgniter\Email\Email->send()
+#6 W:\domains\landing.cvgoup.com\app\Services\AuthService.php(68): App\Libraries\Mailbie->send()
+#7 W:\domains\landing.cvgoup.com\app\Controllers\Backend\Auth\Auth.php(46): App\Services\AuthService->forgotPassword()
+#8 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->forgot()
+#9 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 W:\domains\landing.cvgoup.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-25 03:26:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-25 03:26:23 --> 220 smtp.googlemail.com ESMTP em3-20020a17090b014300b0023f545c055bsm566497pjb.33 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [1.54.213.169]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError em3-20020a17090b014300b0023f545c055bsm566497pjb.33 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError em3-20020a17090b014300b0023f545c055bsm566497pjb.33 - gsmtp
+
+INFO - 2023-03-25 03:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 03:35:20 --> Invalid file: "backend/auth/template/verify.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH\Views\backend\auth\layout\layout.php(27): view()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\backend\\auth\\layout\\layout.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\Backend\Auth\Auth.php(84): view()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\Auth\Auth->verify()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 03:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 03:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 16:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

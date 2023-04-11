@@ -18,10 +18,10 @@
                             <div class="page-header-breadcrumb">
                                 <ul class="breadcrumb-title">
                                     <li class="breadcrumb-item">
-                                        <a href="/backend/dashboard/dashboard/index"> <i class="feather icon-home"></i> </a>
+                                        <a href="<?php echo base_url('backend/dashboard/dashboard/index') ?>"><i class="feather icon-home"></i> </a>
                                     </li>
                                     <li class="breadcrumb-item"><span>Quản lý tài khoản</span></li>
-                                    <li class="breadcrumb-item"><a href="/backend/user/user/index"><?php echo $title ?></a></li>
+                                    <li class="breadcrumb-item"><a href="<?php echo base_url('backend/user/user/index') ?>"><?php echo $title ?></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -49,12 +49,12 @@
                                 <div class="col-sm-6">
                                     <div class="d-flex">
                                         <div class="input-group input-group-button m-r-15">
-                                            <input type="text" class="form-control" placeholder="Nhập từ khóa để tìm kiếm...">
-                                            <span class="input-group-addon btn btn-primary" id="basic-addon10">
+                                            <input type="text" class="form-control" name="search" placeholder="Nhập từ khóa để tìm kiếm...">
+                                            <button type="submit" class="input-group-addon btn btn-primary" id="basic-addon10">
                                                 <span class="">Tìm kiếm</span>
-                                            </span>
+                                            </button>
                                         </div>
-                                        <a href="/backend/user/user/create" class="btn btn-warning">Thêm mới<i class="fa fa-user-plus m-l-10"></i></a>
+                                        <a href="<?php echo base_url('backend/user/user/create') ?>" class="btn btn-warning">Thêm mới<i class="fa fa-user-plus m-l-10"></i></a>
                                     </div>
                                 </div>
                             </form>
@@ -64,33 +64,59 @@
                                 <table class="table table-styling">
                                     <thead>
                                         <tr class="table-primary">
-                                            <th>#</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
-                                            <th>Username</th>
+                                            <th class="text-center">#</th>
+                                            <th>Họ và tên</th>
+                                            <th>Email</th>
+                                            <th class="text-center">Số điện thoại</th>
+                                            <th class="text-center">Ngày sinh</th>
+                                            <th class="text-center">Trạng thái</th>
+                                            <th class="text-center">Thao tác</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">2</th>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">3</th>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
-                                        </tr>
+                                        <?php if(isset($userList['data']) && is_array($userList['data']) && count($userList['data'])){ 
+                                            foreach ($userList['data'] as $key => $value) {
+                                        ?>
+                                            <tr id="post-<?php echo $value['id'] ?>" data-id="<?php echo $value['id'] ?>" data-module="<?php echo $module ?>">
+                                                <th class="text-center">
+                                                    <div class="checkbox-fade fade-in-primary m-r-0">
+                                                        <label class="m-b-0">
+                                                            <input type="checkbox" value="<?php echo $value['id'] ?>">
+                                                            <span class="cr " style="margin-right: 0;">
+                                                                <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                </th>
+                                                <td><?php echo $value['fullname'] ?></td>
+                                                <td><?php echo $value['email'] ?></td>
+                                                <td class="text-center"><?php echo $value['phone'] ?></td>
+                                                <td class="text-center"><?php echo date('d/m/Y' , strtotime($value['birthday'])) ?></td>
+                                                <td class="text-center"><?php echo $value['publish'] ?></td>
+                                                <td class="text-center">
+                                                    <a href="<?php echo base_url('backend/user/user/update/'.$value['id']) ?>" class="btn btn-success btn-icon">
+                                                        <i class="fa fa-edit"></i>
+                                                    </a>
+                                                    <button href="" class="btn btn-danger btn-icon delete-item" >
+                                                        <i class="fa fa-trash"></i>
+                                                    </button>
+                                                    <a href="" class="btn btn-info btn-icon">
+                                                        <i class="fa fa-lock"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        <?php }}else{ ?>
+                                            <tr>
+                                                <td colspan="100%" class="text-center"><span class="text-danger ">Không có dữ liệu phù hợp...</span></td>
+                                            </tr>
+                                        <?php } ?>
                                     </tbody>
                                 </table>
+                                <?php if(isset($userList['paginate'])){ ?>
+                                    <div id="paginate">
+                                        <?php echo $userList['paginate'] ?>
+                                    </div>
+                                <?php } ?>
                             </div>
                         </div>
                     </div>

@@ -10,6 +10,7 @@ class Dashboard extends BaseController{
 
     public function index(){
 
+        $this->data['title'] = 'Trang chủ';
         $this->data['template'] = 'backend/dashboard/home/index';
         $this->data['module'] = 'dashboard';
         return view('backend/dashboard/layout/home', $this->data);

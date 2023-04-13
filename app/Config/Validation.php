@@ -8,6 +8,7 @@ use CodeIgniter\Validation\StrictRules\FileRules;
 use CodeIgniter\Validation\StrictRules\FormatRules;
 use CodeIgniter\Validation\StrictRules\Rules;
 use App\Validation\User\UserCreateRules;
+use App\Validation\UserRules;
 use App\Validation\Auth\LoginRules;
 use App\Validation\Auth\ForgotRules;
 use App\Validation\Auth\VerifyRules;
@@ -33,6 +34,7 @@ class Validation extends BaseConfig
         LoginRules::class,
         ForgotRules::class,
         VerifyRules::class,
+        UserRules::class,
     ];
 
     /**

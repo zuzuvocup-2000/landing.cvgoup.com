@@ -15,6 +15,7 @@
         <link rel="stylesheet" type="text/css" href="/public/backend/files/assets/icon/icofont/css/icofont.css" />
         <link href="/public/backend/plugin/toastr/toastr.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="/public/backend/files/assets/css/style.css" />
+        <script type="text/javascript" src="/public/backend/files/bower_components/jquery/js/jquery.min.js"></script>
         <script type="text/javascript">
             var BASE_URL = '<?php echo BASE_URL ?>';
             var SUFFIX = '<?php echo HTSUFFIX ?>';
@@ -28,19 +29,8 @@
             }
         ?>
 
-        <script type="text/javascript" src="/public/backend/files/bower_components/jquery/js/jquery.min.js"></script>
-        <script type="text/javascript" src="/public/backend/files/bower_components/jquery-ui/js/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="/public/backend/files/bower_components/popper.js/js/popper.min.js"></script>
-        <script type="text/javascript" src="/public/backend/files/bower_components/bootstrap/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="/public/backend/files/bower_components/jquery-slimscroll/js/jquery.slimscroll.js"></script>
-        <script type="text/javascript" src="/public/backend/files/bower_components/modernizr/js/modernizr.js"></script>
-        <script type="text/javascript" src="/public/backend/files/bower_components/modernizr/js/css-scrollbars.js"></script>
-        <script type="text/javascript" src="/public/backend/files/bower_components/i18next/js/i18next.min.js"></script>
+        
         <script src="/public/backend/plugin/toastr/toastr.min.js"></script>
-        <script type="text/javascript" src="/public/backend/files/bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js"></script>
-        <script type="text/javascript" src="/public/backend/files/bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js"></script>
-        <script type="text/javascript" src="/public/backend/files/bower_components/jquery-i18next/js/jquery-i18next.min.js"></script>
-        <script type="text/javascript" src="/public/backend/files/assets/js/common-pages.js"></script>
         <?php echo view('backend/dashboard/common/notification') ?>
     </body>
 </html>

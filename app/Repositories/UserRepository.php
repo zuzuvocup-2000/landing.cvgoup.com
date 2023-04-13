@@ -48,11 +48,29 @@ class UserRepository{
     }
 
     public function getUserByToken($token){
-        return $this->userModel->where(['remember_token' => $token, 'deleted_at' => 0, 'publish' => 1])->find($id);
+        return $this->userModel->where(['remember_token' => $token, 'deleted_at' => 0, 'publish' => 1])->find();
     }
 
     public function getUserById($id){
-        return $this->userModel->where(['deleted_at' => 0])->find($id);
+        return $this->AutoloadModel->_get_where([
+            'select' => 'tb1.*, tb2.name as ward_name, tb3.name as district_name, tb4.name as province_name',
+            'table' => 'users as tb1',
+            'join' => [
+                [
+                    'vn_ward as tb2', 'tb1.wardid = tb2.wardid and tb1.districtid = tb2.districtid', 'left'
+                ],
+                [
+                    'vn_district as tb3', 'tb1.cityid = tb3.provinceid and tb1.districtid = tb3.districtid', 'left'
+                ],
+                [
+                    'vn_province as tb4', 'tb1.cityid = tb4.provinceid', 'left'
+                ],
+            ],
+            'where' => [
+                'tb1.deleted_at' => 0,
+                'tb1.id' => $id
+            ],
+        ]);
     }
 
     public function createUser($data){

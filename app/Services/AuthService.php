@@ -34,7 +34,7 @@ class AuthService{
         $this->userRepository->updateUserToken($user['id'], $token);
         $remember = $request->getPost('remember');
         if ($remember == 1) {
-            setcookie('remember_token', $token, 60*60*24*7, "/"); // 7 days
+            setcookie('remember_token', $token, time() + 60*60*24*7, "/"); // 7 days
         }
 
         $this->session->set('user', $user);

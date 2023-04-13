@@ -1,4 +1,4 @@
-<!-- <div class="theme-loader">
+<div class="theme-loader">
     <div class="ball-scale">
         <div class="contain">
             <div class="ring">
@@ -33,4 +33,4 @@
             </div>
         </div>
     </div>
-</div> -->
+</div>

@@ -1,39 +1,40 @@
-<section class="login-block">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
+<link rel="stylesheet" type="text/css" href="/public/backend/files/assets/css/login.css" />
+<div class="limiter">
+    <div class="container-login100 container-login-admin">
+        <div id="particles-line"></div>
+        <div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
+            <form class="login100-form validate-form flex-sb flex-w" action="" method="post">
+                <span class="login100-form-title ">
+                    <?php echo $title ?>
+                </span>
 
-                <form class="md-float-material form-material" action="" method="post">
-                    <div class="text-center">
-                        <img src="/public/backend/img/logo.png" alt="logo.png" style="width: 200px;" />
-                    </div>
-                    <div class="auth-box card">
-                        <div class="card-block">
-                            <div class="row m-b-20">
-                                <div class="col-md-12">
-                                    <h3 class="text-center"><?php echo $title ?></h3>
-                                </div>
-                            </div>
-                            <div class="form-group form-primary">
-                                <input type="text" name="email" class="form-control <?php echo isset($validate['email']) ? 'border-danger' : '' ?>" required="" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>" placeholder="Email " />
-                                <div class="form-bar text-danger m-t-10"><?php echo isset($validate['email']) ? $validate['email'] : '' ?></div>
-                            </div>
-                            <div class="row ">
-                                <div class="col-md-12">
-                                    <button type="submit" class="btn btn-primary btn-md btn-block waves-effect waves-light text-center m-b-20">Gửi mã OTP</button>
-                                </div>
-                            </div>
-                            <div class="row text-left">
-                                <div class="col-12">
-                                    <div class="forgot-phone text-right f-right">
-                                        <a href="<?php echo base_url('admin') ?>" class="text-right f-w-600"> Đăng nhập?</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
+                <div class="p-t-31 p-b-9">
+                    <span class="txt1">
+                        Tài khoản
+                    </span>
+                    <span class="form-bar text-danger "><?php echo isset($validate['email']) ? $validate['email'] : '' ?></span>
+                </div>
+                <div class="wrap-input100 validate-input" data-validate = "Username is required">
+                    <input type="text" name="email" class="input100" required="" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>" placeholder="Email " />
+                    <span class="focus-input100"></span>
+                </div>
+                <div class="container-login100-form-btn m-t-17">
+                    <button class="login100-form-btn" type="submit">
+                        Gửi mã OTP
+                    </button>
+                </div>
+
+                <div class="w-full text-center p-t-55">
+                    <span class="txt2">
+                        Bạn đã có tài khoản?
+                    </span>
+
+                    <a href="<?php echo base_url('admin') ?>" class="txt2 bo1">
+                        Đăng nhập
+                    </a>
+                </div>
+            </form>
         </div>
     </div>
-</section>
+</div>
+<script type="text/javascript" src="/public/backend/files/assets/js/particles.min.js"></script>

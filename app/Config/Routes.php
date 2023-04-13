@@ -37,13 +37,18 @@ $routes->match(['get','post'],'admin/logout', 'Backend\Auth\Auth::logout');
 $routes->match(['get','post'],'admin/verify', 'Backend\Auth\Auth::verify');
 $routes->match(['get','post'],'backend/dashboard/dashboard/index', 'Backend\Dashboard\Dashboard::index',['filter' => 'authGuard']);
 
-$routes->group('backend/user/user', [] , function($routes){
+$routes->group('backend/user/user', ['filter' => 'authGuard'] , function($routes){
     $routes->add('index', 'Backend\User\User::index');
     $routes->add('index/([0-9]+)', 'Backend\User\User::index/$1');
     $routes->add('create', 'Backend\User\User::create');
     $routes->add('update', 'Backend\User\User::update');
     $routes->add('update/([0-9]+)', 'Backend\User\User::update/$1');
     $routes->add('delete', 'Backend\User\User::delete');
+});
+
+$routes->group('backend/user/profile', ['filter' => 'authGuard'] , function($routes){
+    $routes->add('update', 'Backend\User\Profile::update');
+    $routes->add('change-password', 'Backend\User\Profile::changePassword');
 });
 
 

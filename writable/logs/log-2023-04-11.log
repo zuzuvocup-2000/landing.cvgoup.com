@@ -56,3 +56,324 @@ INFO - 2023-04-11 15:04:18 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-04-11 15:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-04-11 15:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-04-11 15:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-11 16:42:52 --> Undefined variable: id
+in APPPATH\Controllers\Backend\User\Profile.php on line 18.
+ 1 APPPATH\Controllers\Backend\User\Profile.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\Profile->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 16:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 16:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-11 17:20:43 --> mysqli_sql_exception: Unknown column 'tb4.province' in 'field list' in W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 W:\domains\landing.cvgoup.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 W:\domains\landing.cvgoup.com\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 W:\domains\landing.cvgoup.com\app\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+#6 W:\domains\landing.cvgoup.com\app\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+#7 W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+#8 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+#9 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 W:\domains\landing.cvgoup.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-11 17:20:43 --> Unknown column 'tb4.province' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+ 4 APPPATH\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+ 5 APPPATH\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-11 17:20:44 --> mysqli_sql_exception: Unknown column 'tb4.province' in 'field list' in W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 W:\domains\landing.cvgoup.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 W:\domains\landing.cvgoup.com\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 W:\domains\landing.cvgoup.com\app\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+#6 W:\domains\landing.cvgoup.com\app\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+#7 W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\Profile.php(18): App\Services\UserService->getuserById()
+#8 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(934): App\Controllers\Backend\User\Profile->update()
+#9 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 W:\domains\landing.cvgoup.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-11 17:20:44 --> Unknown column 'tb4.province' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+ 4 APPPATH\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+ 5 APPPATH\Controllers\Backend\User\Profile.php(18): App\Services\UserService->getuserById()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\Profile->update()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-11 17:21:25 --> mysqli_sql_exception: Unknown column 'tb4.province' in 'field list' in W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 W:\domains\landing.cvgoup.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 W:\domains\landing.cvgoup.com\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 W:\domains\landing.cvgoup.com\app\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+#6 W:\domains\landing.cvgoup.com\app\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+#7 W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+#8 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+#9 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 W:\domains\landing.cvgoup.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-11 17:21:25 --> Unknown column 'tb4.province' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+ 4 APPPATH\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+ 5 APPPATH\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-11 17:21:26 --> mysqli_sql_exception: Unknown column 'tb4.province' in 'field list' in W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 W:\domains\landing.cvgoup.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 W:\domains\landing.cvgoup.com\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 W:\domains\landing.cvgoup.com\app\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+#6 W:\domains\landing.cvgoup.com\app\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+#7 W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+#8 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+#9 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 W:\domains\landing.cvgoup.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-11 17:21:26 --> Unknown column 'tb4.province' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+ 4 APPPATH\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+ 5 APPPATH\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-11 17:21:32 --> mysqli_sql_exception: Unknown column 'tb1.provinceid' in 'on clause' in W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 W:\domains\landing.cvgoup.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 W:\domains\landing.cvgoup.com\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 W:\domains\landing.cvgoup.com\app\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+#6 W:\domains\landing.cvgoup.com\app\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+#7 W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+#8 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+#9 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 W:\domains\landing.cvgoup.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-11 17:21:32 --> Unknown column 'tb1.provinceid' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+ 4 APPPATH\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+ 5 APPPATH\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-11 17:21:34 --> mysqli_sql_exception: Unknown column 'tb1.provinceid' in 'on clause' in W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 W:\domains\landing.cvgoup.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 W:\domains\landing.cvgoup.com\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 W:\domains\landing.cvgoup.com\app\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+#6 W:\domains\landing.cvgoup.com\app\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+#7 W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+#8 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+#9 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 W:\domains\landing.cvgoup.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-11 17:21:34 --> Unknown column 'tb1.provinceid' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+ 4 APPPATH\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+ 5 APPPATH\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-11 17:21:34 --> mysqli_sql_exception: Unknown column 'tb1.provinceid' in 'on clause' in W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 W:\domains\landing.cvgoup.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 W:\domains\landing.cvgoup.com\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 W:\domains\landing.cvgoup.com\app\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+#6 W:\domains\landing.cvgoup.com\app\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+#7 W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+#8 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+#9 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 W:\domains\landing.cvgoup.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-11 17:21:34 --> Unknown column 'tb1.provinceid' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+ 4 APPPATH\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+ 5 APPPATH\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-11 17:21:48 --> mysqli_sql_exception: Unknown column 'tb1.provinceid' in 'on clause' in W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 W:\domains\landing.cvgoup.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 W:\domains\landing.cvgoup.com\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 W:\domains\landing.cvgoup.com\app\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+#6 W:\domains\landing.cvgoup.com\app\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+#7 W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+#8 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+#9 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 W:\domains\landing.cvgoup.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-11 17:21:48 --> Unknown column 'tb1.provinceid' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+ 4 APPPATH\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+ 5 APPPATH\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-11 17:21:49 --> mysqli_sql_exception: Unknown column 'tb1.provinceid' in 'on clause' in W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 W:\domains\landing.cvgoup.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 W:\domains\landing.cvgoup.com\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 W:\domains\landing.cvgoup.com\app\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+#6 W:\domains\landing.cvgoup.com\app\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+#7 W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+#8 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+#9 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 W:\domains\landing.cvgoup.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-11 17:21:49 --> Unknown column 'tb1.provinceid' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+ 4 APPPATH\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+ 5 APPPATH\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-11 17:21:50 --> mysqli_sql_exception: Unknown column 'tb1.provinceid' in 'on clause' in W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 W:\domains\landing.cvgoup.com\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 W:\domains\landing.cvgoup.com\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 W:\domains\landing.cvgoup.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 W:\domains\landing.cvgoup.com\app\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 W:\domains\landing.cvgoup.com\app\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+#6 W:\domains\landing.cvgoup.com\app\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+#7 W:\domains\landing.cvgoup.com\app\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+#8 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+#9 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 W:\domains\landing.cvgoup.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 W:\domains\landing.cvgoup.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-11 17:21:50 --> Unknown column 'tb1.provinceid' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\AutoloadModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Repositories\UserRepository.php(71): App\Models\AutoloadModel->_get_where()
+ 4 APPPATH\Services\UserService.php(35): App\Repositories\UserRepository->getUserById()
+ 5 APPPATH\Controllers\Backend\User\User.php(44): App\Services\UserService->getuserById()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend\User\User->update()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

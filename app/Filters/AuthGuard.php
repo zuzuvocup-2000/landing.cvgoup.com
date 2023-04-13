@@ -8,6 +8,7 @@ class AuthGuard implements FilterInterface{
     public function before(RequestInterface $request, $arguments = null){
         $session = session();
         $cookie = $request->getCookie('remember_token');
+        $this->userRepository = service('UserRepository');
         if (!$session->has('user')) {
             if (isset($cookie)) {
                 $user = $this->userRepository->getUserByToken($cookie);

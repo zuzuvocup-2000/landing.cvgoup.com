@@ -1,3 +1,4 @@
+<?php $current_user = getCurrentUser(); ?>
 <nav class="navbar header-navbar pcoded-header">
     <div class="navbar-wrapper">
         <div class="navbar-logo">
@@ -5,7 +6,7 @@
                 <i class="feather icon-menu"></i>
             </a>
             <a href="index-1.htm">
-                <img class="img-fluid" src="\public\backend\files\assets\images\logo.png" alt="Theme-Logo" />
+                <img class="img-fluid" src="/public/backend/files/assets/images/logo.png" alt="Theme-Logo" />
             </a>
             <a class="mobile-options">
                 <i class="feather icon-more-horizontal"></i>
@@ -29,7 +30,7 @@
                 </li>
             </ul>
             <ul class="nav-right">
-                <li class="header-notification">
+                <!-- <li class="header-notification">
                     <div class="dropdown-primary dropdown">
                         <div class="dropdown-toggle" data-toggle="dropdown">
                             <i class="feather icon-bell"></i>
@@ -42,7 +43,7 @@
                             </li>
                             <li>
                                 <div class="media">
-                                    <img class="d-flex align-self-center img-radius" src="\public\backend\files\assets\images\avatar-4.jpg" alt="Generic placeholder image" />
+                                    <img class="d-flex align-self-center img-radius" src="/public/backend/files/assets/images/avatar-4.jpg" alt="Generic placeholder image" />
                                     <div class="media-body">
                                         <h5 class="notification-user">John Doe</h5>
                                         <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -52,7 +53,7 @@
                             </li>
                             <li>
                                 <div class="media">
-                                    <img class="d-flex align-self-center img-radius" src="\public\backend\files\assets\images\avatar-3.jpg" alt="Generic placeholder image" />
+                                    <img class="d-flex align-self-center img-radius" src="/public/backend/files/assets/images/avatar-3.jpg" alt="Generic placeholder image" />
                                     <div class="media-body">
                                         <h5 class="notification-user">Joseph William</h5>
                                         <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -62,7 +63,7 @@
                             </li>
                             <li>
                                 <div class="media">
-                                    <img class="d-flex align-self-center img-radius" src="\public\backend\files\assets\images\avatar-4.jpg" alt="Generic placeholder image" />
+                                    <img class="d-flex align-self-center img-radius" src="/public/backend/files/assets/images/avatar-4.jpg" alt="Generic placeholder image" />
                                     <div class="media-body">
                                         <h5 class="notification-user">Sara Soudein</h5>
                                         <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -72,26 +73,17 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> -->
                 <li class="user-profile header-notification">
                     <div class="dropdown-primary dropdown">
                         <div class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="\public\backend\files\assets\images\avatar-4.jpg" class="img-radius" alt="User-Profile-Image" />
-                            <span>John Doe</span>
+                            <img src="<?php echo empty($current_user['image']) ? '/public/backend/img/not-found.png' : $current_user['image'] ?>" class="img-radius" alt="User-Profile-Image" />
+                            <span><?php echo $current_user['fullname'] ?></span>
                             <i class="feather icon-chevron-down"></i>
                         </div>
                         <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
                             <li>
-                                <a href="#!"> <i class="feather icon-settings"></i> Settings </a>
-                            </li>
-                            <li>
-                                <a href="user-profile.htm"> <i class="feather icon-user"></i> Profile </a>
-                            </li>
-                            <li>
-                                <a href="email-inbox.htm"> <i class="feather icon-mail"></i> My Messages </a>
-                            </li>
-                            <li>
-                                <a href="auth-lock-screen.htm"> <i class="feather icon-lock"></i> Lock Screen </a>
+                                <a href="/backend/user/profile/update"> <i class="feather icon-user"></i> Thông tin cá nhân </a>
                             </li>
                             <li>
                                 <a href="<?php echo base_url('admin/logout') ?>"> <i class="feather icon-log-out"></i> Đăng xuất </a>

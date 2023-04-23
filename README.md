@@ -4,7 +4,9 @@
 ## Yêu cầu dự án
 
 PHP: 7.4
+
 SQL Server Management 2022
+
 Ngoài ra còn có các extension cài đặt Open Server
 
 ## Hướng dẫn cấu hình hệ thống
@@ -19,21 +21,26 @@ Ngoài ra còn có các extension cài đặt Open Server
 - Thêm các extension vừa tải vào folder ext theo version PHP. Ví dụ: E:\CVG Open Server\modules\php\PHP_8.1\ext
 - Mở file php.ini của Version PHP tương ứng và thêm dòng lệnh sau:
 
-extension  = php_pdo_sqlsrv_81_ts_x64.dll
-extension  = php_sqlsrv_81_ts_x64.dll
+<pre>
+    extension  = php_pdo_sqlsrv_81_ts_x64.dll
+    extension  = php_sqlsrv_81_ts_x64.dll
+</pre>
 
 - Ngoài ra bạn còn phải xóa dấu ; trước câu lệnh extension = intl
 
 ### Về composer
 
 Chạy dòng lệnh sau:
-- composer install (composer update)
-- composer dump-autoload
 
+<pre>
+    composer install (composer update)
+    composer dump-autoload
+</pre>
 ### Cấu hình config
 
-define('CVG_DB_HOST', 'DESKTOP-5DJ8EQQ');                   // Tên Server
-define('CVG_DB_USER', 'vanh');                              // Tài khoản
-define('CVG_DB_PASS', '1');                                 // Mật khẩu
-define('CVG_DB_NAME', 'pvi2');                              // Tên DB
-
+<pre>
+    define('CVG_DB_HOST', 'DESKTOP-5DJ8EQQ');                   // Tên Server
+    define('CVG_DB_USER', 'vanh');                              // Tài khoản
+    define('CVG_DB_PASS', '1');                                 // Mật khẩu
+    define('CVG_DB_NAME', 'pvi2');                              // Tên DB
+</pre>

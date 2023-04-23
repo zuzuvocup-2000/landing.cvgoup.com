@@ -5,10 +5,10 @@ define('HTSUFFIX', '.html');
 define('ASSET_BACKEND', '/public/backend/');
 define('DASHBOARD_NAME', 'Cvgoup Company Dashboard');
 
-define('HTDBHOST', 'localhost');
-define('HTDBUSER', 'root');
-define('HTDBPASS', 'root');
-define('HTDBNAME', 'landing_cvgoup');
+define('CVG_DB_HOST', 'DESKTOP-5DJ8EQQ');
+define('CVG_DB_USER', 'vanh');
+define('CVG_DB_PASS', '1');
+define('CVG_DB_NAME', 'pvi2');
 
 define('SMTP_EMAIL', 'vanh.dev2000@gmail.com');
 define('SMTP_PASSWORD', 'jouuhxdpxuvhxptg');

@@ -1,58 +1,39 @@
-<<<<<<< HEAD
-# landing.cvgoup.com
-=======
-# CodeIgniter 4 Framework
 
-## What is CodeIgniter?
+# PVI PROJECT
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Yêu cầu dự án
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+PHP: 7.4
+SQL Server Management 2022
+Ngoài ra còn có các extension cài đặt Open Server
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Hướng dẫn cấu hình hệ thống
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+### Hướng dẫn cấu hình tài khoản đăng nhập MS SQL
 
-## Important Change with index.php
+<a href="https://qthang.net/huong-dan-bat-tai-khoan-sa-trong-sql-server">https://qthang.net/huong-dan-bat-tai-khoan-sa-trong-sql-server</a>
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+### Về Extension PHP hỗ trợ kết nối SQL Server
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+- Tải các Extension <a href="https://drive.google.com/open?id=1-1LD7xY2oAKRqDsagFf8G6J-KhLON0zL&authuser=vanh.dev2000%40gmail.com&usp=drive_fs">Tại đây</a>
+- Thêm các extension vừa tải vào folder ext theo version PHP. Ví dụ: E:\CVG Open Server\modules\php\PHP_8.1\ext
+- Mở file php.ini của Version PHP tương ứng và thêm dòng lệnh sau:
 
-**Please** read the user guide for a better explanation of how CI4 works!
+extension  = php_pdo_sqlsrv_81_ts_x64.dll
+extension  = php_sqlsrv_81_ts_x64.dll
 
-## Repository Management
+- Ngoài ra bạn còn phải xóa dấu ; trước câu lệnh extension = intl
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+### Về composer
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+Chạy dòng lệnh sau:
+- composer install (composer update)
+- composer dump-autoload
 
-## Contributing
+### Cấu hình config
 
-We welcome contributions from the community.
+define('CVG_DB_HOST', 'DESKTOP-5DJ8EQQ');                   // Tên Server
+define('CVG_DB_USER', 'vanh');                              // Tài khoản
+define('CVG_DB_PASS', '1');                                 // Mật khẩu
+define('CVG_DB_NAME', 'pvi2');                              // Tên DB
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
->>>>>>> 5aeb23d (first commit)

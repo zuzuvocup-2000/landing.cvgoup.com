@@ -26,11 +26,11 @@ class Database extends Config
      */
     public array $default = [
         'DSN'      => '',
-        'hostname' => HTDBHOST,
-        'username' => HTDBUSER,
-        'password' => HTDBPASS,
-        'database' => HTDBNAME,
-        'DBDriver' => 'MySQLi',
+        'hostname' => CVG_DB_HOST,
+        'username' => CVG_DB_USER,
+        'password' => CVG_DB_PASS,
+        'database' => CVG_DB_NAME,
+        'DBDriver' => 'SQLSRV',
         'DBPrefix' => '',
         'pConnect' => false,
         'DBDebug'  => true,
@@ -41,7 +41,7 @@ class Database extends Config
         'compress' => false,
         'strictOn' => false,
         'failover' => [],
-        'port'     => 3306,
+        'port'     => '',
     ];
 
     /**

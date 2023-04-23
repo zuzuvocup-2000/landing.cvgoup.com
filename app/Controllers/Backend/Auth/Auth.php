@@ -37,6 +37,13 @@ class Auth extends BaseController{
                 $this->data['validate'] = $this->validator->getErrors();
             }
         }
+
+        // $user = $this->AutoloadModel->_get_where([
+        //     'select' => '*',
+        //     'table' => 'TBL_CONGTY'
+        // ],true);
+
+        // pre($user);
         $this->data['title'] = 'Đăng nhập';
         $this->data['template'] = 'backend/auth/template/login';
         return view('backend/auth/layout/layout', $this->data);
